@@ -1,0 +1,72 @@
+:root {
+  --bg-dark: #000000;
+  --bg-card: #0a0a0a;
+  --primary: #00f3ff;
+  --secondary: #7000ff;
+  --accent: #ff0055;
+  --text-main: #ffffff;
+  --text-dim: #888888;
+  --glass: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: 'Rajdhani', sans-serif;
+  overflow-x: hidden;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, .brand, .stat-number {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+}
+
+/* Custom Cursor */
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s, height 0.2s, background-color 0.2s;
+  mix-blend-mode: difference;
+}
+
+.cursor.hovered {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 243, 255, 0.2);
+  border-color: var(--accent);
+}
+
+/* Background Animation */
+.bg-grid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
