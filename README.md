@@ -1,112 +1,112 @@
-# A.X.L BLADE Bot Landing Page
+# A.X.L BLADE BOT LANDING PAGE
 
-Modern React + Vite landing page for A.X.L BLADE Discord Bot.
+MODERN REACT + VITE LANDING PAGE FOR A.X.L BLADE DISCORD BOT.
 
-## 🚀 Quick Start
+## 🚀 QUICK START
 
-```bash
-npm install
-npm run dev
+```BASH
+NPM INSTALL
+NPM RUN DEV
 ```
 
-Visit: `http://localhost:5173/`
+VISIT: `HTTP://LOCALHOST:5173/`
 
-## 📦 Build for Production
+## 📦 BUILD FOR PRODUCTION
 
-```bash
-npm run build
+```BASH
+NPM RUN BUILD
 ```
 
-The build output will be in the `dist/` folder.
+THE BUILD OUTPUT WILL BE IN THE `DIST/` FOLDER.
 
-## 🌐 Deploy to Netlify
+## 🌐 DEPLOY TO NETLIFY
 
-### Option 1: Drag & Drop (Easiest)
-1. Run `npm run build`
-2. Go to [Netlify Drop](https://app.netlify.com/drop)
-3. Drag the `dist` folder to the upload area
-4. Done! ✅
+### OPTION 1: DRAG & DROP (EASIEST)
+1. RUN `NPM RUN BUILD`
+2. GO TO [NETLIFY DROP](HTTPS://APP.NETLIFY.COM/DROP)
+3. DRAG THE `DIST` FOLDER TO THE UPLOAD AREA
+4. DONE! ✅
 
-### Option 2: Netlify CLI
-```bash
-npm install -g netlify-cli
-npm run build
-netlify deploy --prod --dir=dist
+### OPTION 2: NETLIFY CLI
+```BASH
+NPM INSTALL -G NETLIFY-CLI
+NPM RUN BUILD
+NETLIFY DEPLOY --PROD --DIR=DIST
 ```
 
-### Option 3: Git Deploy
-1. Push your code to GitHub
-2. Connect repository in Netlify
-3. Build settings:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-4. Deploy! ✅
+### OPTION 3: GIT DEPLOY
+1. PUSH YOUR CODE TO GITHUB
+2. CONNECT REPOSITORY IN NETLIFY
+3. BUILD SETTINGS:
+   - **BUILD COMMAND:** `NPM RUN BUILD`
+   - **PUBLISH DIRECTORY:** `DIST`
+4. DEPLOY! ✅
 
-## 📁 Project Structure
-
-```
-bot-landing-page/
-├── public/
-│   ├── bot.ico
-│   └── _redirects        ← Important for React Router!
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   └── Footer.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Premium.jsx
-│   │   ├── Contact.jsx
-│   │   ├── FAQ.jsx
-│   │   ├── Documentation.jsx
-│   │   ├── Privacy.jsx
-│   │   ├── Terms.jsx
-│   │   └── Cookies.jsx
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── dist/                 ← Build output (deploy this!)
-├── package.json
-└── vite.config.js
-```
-
-## 🔗 Routes
-
-- `/` - Home
-- `/premium` - Premium Plans
-- `/features` - Features Section (scroll on home)
-- `/contact` - Contact Form
-- `/faq` - FAQ
-- `/documentation` - Bot Documentation
-- `/privacy` - Privacy Policy
-- `/terms` - Terms of Service
-- `/cookies` - Cookie Policy
-
-## ⚙️ Important Files
-
-### `public/_redirects`
-Required for React Router to work on Netlify. All routes redirect to `index.html`.
+## 📁 PROJECT STRUCTURE
 
 ```
-/*    /index.html   200
+BOT-LANDING-PAGE/
+├── PUBLIC/
+│   ├── BOT.ICO
+│   └── _REDIRECTS        ← IMPORTANT FOR REACT ROUTER!
+├── SRC/
+│   ├── COMPONENTS/
+│   │   ├── HEADER.JSX
+│   │   └── FOOTER.JSX
+│   ├── PAGES/
+│   │   ├── HOME.JSX
+│   │   ├── PREMIUM.JSX
+│   │   ├── CONTACT.JSX
+│   │   ├── FAQ.JSX
+│   │   ├── DOCUMENTATION.JSX
+│   │   ├── PRIVACY.JSX
+│   │   ├── TERMS.JSX
+│   │   └── COOKIES.JSX
+│   ├── APP.JSX
+│   ├── INDEX.CSS
+│   └── MAIN.JSX
+├── DIST/                 ← BUILD OUTPUT (DEPLOY THIS!)
+├── PACKAGE.JSON
+└── VITE.CONFIG.JS
 ```
 
-### Discord Server Link
-Update in all files:
+## 🔗 ROUTES
+
+- `/` - HOME
+- `/PREMIUM` - PREMIUM PLANS
+- `/FEATURES` - FEATURES SECTION (SCROLL ON HOME)
+- `/CONTACT` - CONTACT FORM
+- `/FAQ` - FAQ
+- `/DOCUMENTATION` - BOT DOCUMENTATION
+- `/PRIVACY` - PRIVACY POLICY
+- `/TERMS` - TERMS OF SERVICE
+- `/COOKIES` - COOKIE POLICY
+
+## ⚙️ IMPORTANT FILES
+
+### `PUBLIC/_REDIRECTS`
+REQUIRED FOR REACT ROUTER TO WORK ON NETLIFY. ALL ROUTES REDIRECT TO `INDEX.HTML`.
+
 ```
-https://discord.gg/M7DJFf2qzm
+/*    /INDEX.HTML   200
 ```
 
-## 🎨 Technologies
+### DISCORD SERVER LINK
+UPDATE IN ALL FILES:
+```
+HTTPS://DISCORD.GG/M7DJFF2QZM
+```
 
-- React 18
-- Vite
-- React Router DOM
-- GSAP (Animations)
+## 🎨 TECHNOLOGIES
+
+- REACT 18
+- VITE
+- REACT ROUTER DOM
+- GSAP (ANIMATIONS)
 - CSS3
-- Font Awesome
-- Google Fonts
+- FONT AWESOME
+- GOOGLE FONTS
 
-## 📝 License
+## 📝 LICENSE
 
 © 2024 A.X.L BLADE AUTOMATION. ALL RIGHTS RESERVED.
