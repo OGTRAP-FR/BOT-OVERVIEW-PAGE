@@ -300,3 +300,46 @@ code {
     color: #00f3ff;
     font-weight: 700;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 100px 20px 40px;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .page-header p {
+        font-size: 0.9rem;
+    }
+
+    .doc-section {
+        padding: 20px;
+    }
+
+    .doc-section h2 {
+        font-size: 1.3rem;
+    }
+
+    .contact-methods {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-card {
+        padding: 25px 15px;
+    }
+
+    .content {
+        padding: 25px 15px;
+    }
+
+    .content h2 {
+        font-size: 1.3rem;
+    }
+
+    .cookie-table {
+        display: block;
+        overflow-x: auto;
+    }
+}

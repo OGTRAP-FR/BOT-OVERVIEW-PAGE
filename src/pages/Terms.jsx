@@ -15,10 +15,10 @@ const Terms = () => {
 
                 <div className="content">
                     <h2>1. ACCEPTANCE OF TERMS</h2>
-                    <p>BY USING ARKIII ("THE BOT"), YOU AGREE TO BE BOUND BY THESE TERMS OF SERVICE. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THE BOT.</p>
+                    <p>BY USING A.X.L BLADE ("THE BOT"), YOU AGREE TO BE BOUND BY THESE TERMS OF SERVICE. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THE BOT.</p>
 
                     <h2>2. USE LICENSE</h2>
-                    <p>WE GRANT YOU A LIMITED, NON-EXCLUSIVE, NON-TRANSFERABLE LICENSE TO USE ARKIII FOR LEGITIMATE PURPOSES. THIS LICENSE DOES NOT INCLUDE:</p>
+                    <p>WE GRANT YOU A LIMITED, NON-EXCLUSIVE, NON-TRANSFERABLE LICENSE TO USE A.X.L BLADE FOR LEGITIMATE PURPOSES. THIS LICENSE DOES NOT INCLUDE:</p>
                     <ul>
                         <li>MODIFYING OR COPYING THE BOT'S CODE</li>
                         <li>ATTEMPTING TO REVERSE ENGINEER THE BOT</li>
@@ -50,7 +50,7 @@ const Terms = () => {
                     <h2>5. CONTACT INFORMATION</h2>
                     <p>FOR QUESTIONS ABOUT THESE TERMS, CONTACT US AT:</p>
                     <ul>
-                        <li>EMAIL: LEGAL@ARKIII.BOT</li>
+                        <li>EMAIL: LEGAL@AXLBLADE.BOT</li>
                         <li>DISCORD: <a href="https://discord.gg/support" style={{ color: '#00f3ff' }}>SUPPORT SERVER</a></li>
                         <li>CONTACT FORM: <Link to="/contact" style={{ color: '#00f3ff' }}>CONTACT PAGE</Link></li>
                     </ul>

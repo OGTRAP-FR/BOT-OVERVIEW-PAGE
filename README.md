@@ -1,6 +1,6 @@
-# ARKIII Bot Landing Page
+# A.X.L BLADE Bot Landing Page
 
-Modern React + Vite landing page for ARKIII Discord Bot.
+Modern React + Vite landing page for A.X.L BLADE Discord Bot.
 
 ## 🚀 Quick Start
 
@@ -109,4 +109,4 @@ https://discord.gg/M7DJFf2qzm
 
 ## 📝 License
 
-© 2024 ARKIII AUTOMATION. ALL RIGHTS RESERVED.
+© 2024 A.X.L BLADE AUTOMATION. ALL RIGHTS RESERVED.

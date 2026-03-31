@@ -69,8 +69,8 @@ const Home = () => {
                 <p>THE MOST ADVANCED DISCORD AUTOMATION TOOL. POWERFUL MODERATION, HIGH-QUALITY MUSIC, AND ENGAGING ECONOMY SYSTEMS.</p>
 
                 <div className="btn-group">
-                    <a href="#" className="btn btn-primary">INVITE NOW</a>
-                    <a href="https://discord.gg/M7DJFf2qzm" className="btn btn-secondary">DASHBOARD</a>
+                    <a href="https://discord.com/oauth2/authorize?client_id=1045368778441101312" className="btn btn-primary">INVITE NOW</a>
+                    <a href="https://discord.gg/M7DJFf2qzm" className="btn btn-secondary">SUPPORT SERVER</a>
                 </div>
             </section>
 
@@ -133,7 +133,7 @@ const Home = () => {
                         </div>
                         <div style={{ color: '#ddd', fontFamily: 'monospace' }}>
                             <span style={{ color: '#00f3ff' }}>TR4P</span> <span style={{ color: '#666' }}>&gt;&gt;</span> <span style={{ color: '#bc13fe' }}>/play</span> song: <span style={{ color: '#fff' }}>NCS Release</span><br /><br />
-                            <span style={{ color: '#00f3ff' }}>ARKII</span> <span style={{ background: '#5865F2', color: '#fff', fontSize: '10px', padding: '2px 4px', borderRadius: '3px' }}>BOT</span><br />
+                            <span style={{ color: '#00f3ff' }}>A.X.L BLADE</span> <span style={{ background: '#5865F2', color: '#fff', fontSize: '10px', padding: '2px 4px', borderRadius: '3px' }}>BOT</span><br />
                             <div style={{ background: 'rgba(0,243,255,0.1)', borderLeft: '3px solid #00f3ff', padding: '10px', marginTop: '5px' }}>
                                 <strong>NOW PLAYING</strong><br />
                                 Unknown Brain - Superhero (feat. Chris Linton)<br />

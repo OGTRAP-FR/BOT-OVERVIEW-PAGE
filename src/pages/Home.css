@@ -53,6 +53,7 @@
     margin-bottom: 50px;
     max-width: 800px;
     letter-spacing: 2px;
+    line-height: 1.6;
 }
 
 .btn-group {
@@ -257,19 +258,90 @@
 }
 
 @media (max-width: 768px) {
+    .hero {
+        padding: 100px 20px 60px;
+    }
+
     .hero h1 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
+        margin-bottom: 15px;
     }
 
     .hero h1 .highlight {
-        font-size: 4rem;
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 0.95rem;
+        margin-bottom: 30px;
+        line-height: 1.5;
+    }
+
+    .btn-group {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        padding: 12px 20px;
+        font-size: 1rem;
+        clip-path: none;
+        border-radius: 8px;
     }
 
     .stats-container {
-        gap: 40px;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0 60px;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .section {
+        padding: 60px 20px;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
     }
 
     .premium-section {
         flex-direction: column;
+        padding: 50px 20px;
+        gap: 30px;
+    }
+
+    .premium-content h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .premium-list {
+        display: table;
+        margin: 0 auto;
+    }
+
+    .premium-list li {
+        font-size: 0.9rem;
+        justify-content: flex-start;
+    }
+
+    .mockup-window {
+        transform: none;
+        margin-top: 20px;
+    }
+
+    .mockup-window:hover {
+        transform: none;
     }
 }

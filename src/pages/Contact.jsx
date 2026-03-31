@@ -30,7 +30,7 @@ const Contact = () => {
             <div className="container" style={{ maxWidth: '800px' }}>
                 <div className="page-header">
                     <h1>CONTACT US</h1>
-                    <p>GET IN TOUCH WITH THE ARKIII TEAM</p>
+                    <p>GET IN TOUCH WITH THE A.X.L BLADE TEAM</p>
                 </div>
 
                 <div className="contact-methods">
@@ -44,7 +44,7 @@ const Contact = () => {
                         <i className="fas fa-envelope"></i>
                         <h3>EMAIL</h3>
                         <p>SEND US AN EMAIL</p>
-                        <a href="mailto:support@arkiii.bot">SUPPORT@ARKIII.BOT</a>
+                        <a href="mailto:support@axlblade.bot">SUPPORT@AXLBLADE.BOT</a>
                     </div>
                 </div>
 

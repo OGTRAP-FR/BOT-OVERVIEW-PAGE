@@ -15,7 +15,7 @@ const Privacy = () => {
 
                 <div className="content">
                     <h2>1. INTRODUCTION</h2>
-                    <p>WELCOME TO ARKIII ("WE," "OUR," OR "US"). WE ARE COMMITTED TO PROTECTING YOUR PRIVACY AND ENSURING THE SECURITY OF YOUR PERSONAL INFORMATION. THIS PRIVACY POLICY EXPLAINS HOW WE COLLECT, USE, DISCLOSE, AND SAFEGUARD YOUR INFORMATION WHEN YOU USE OUR DISCORD BOT SERVICE.</p>
+                    <p>WELCOME TO A.X.L BLADE ("WE," "OUR," OR "US"). WE ARE COMMITTED TO PROTECTING YOUR PRIVACY AND ENSURING THE SECURITY OF YOUR PERSONAL INFORMATION. THIS PRIVACY POLICY EXPLAINS HOW WE COLLECT, USE, DISCLOSE, AND SAFEGUARD YOUR INFORMATION WHEN YOU USE OUR DISCORD BOT SERVICE.</p>
 
                     <h2>2. INFORMATION WE COLLECT</h2>
                     <p>WE COLLECT THE FOLLOWING TYPES OF INFORMATION:</p>
@@ -50,7 +50,7 @@ const Privacy = () => {
                     <h2>5. CONTACT US</h2>
                     <p>IF YOU HAVE QUESTIONS ABOUT THIS PRIVACY POLICY, PLEASE CONTACT US:</p>
                     <ul>
-                        <li>EMAIL: PRIVACY@ARKIII.BOT</li>
+                        <li>EMAIL: PRIVACY@AXLBLADE.BOT</li>
                         <li>DISCORD: <a href="https://discord.gg/support" style={{ color: '#00f3ff' }}>SUPPORT SERVER</a></li>
                         <li>CONTACT FORM: <Link to="/contact" style={{ color: '#00f3ff' }}>CONTACT PAGE</Link></li>
                     </ul>

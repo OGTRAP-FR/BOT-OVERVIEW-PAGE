@@ -5,32 +5,12 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer-grid">
-                <div className="footer-col" style={{ textAlign: 'center' }}>
-                    <h1 style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        gap: '15px',
-                        fontSize: '2.5rem',
-                        marginBottom: '15px'
-                    }}>
-                        <img
-                            src="/bot.ico"
-                            alt="ARKIII Icon"
-                            style={{
-                                width: '50px',
-                                height: '50px',
-                                borderRadius: '50%',
-                                border: '2px solid var(--primary)'
-                            }}
-                        />
-                        ARKIII
+                <div className="footer-col brand-col">
+                    <h1 className="footer-brand">
+                        <img src="/bot.ico" alt="A.X.L BLADE Icon" className="brand-icon" />
+                        A.X.L BLADE
                     </h1>
-                    <p style={{
-                        color: 'var(--text-dim)',
-                        fontSize: '1.2rem',
-                        letterSpacing: '2px'
-                    }}>
+                    <p className="brand-tagline">
                         THE ULTIMATE BOT
                     </p>
                 </div>
@@ -48,7 +28,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="copyright">
-                &copy; 2024 ARKIII AUTOMATION. ALL RIGHTS RESERVED.
+                &copy; 2024 A.X.L BLADE AUTOMATION. ALL RIGHTS RESERVED.
             </div>
         </footer>
     );

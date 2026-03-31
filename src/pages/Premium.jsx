@@ -9,7 +9,7 @@ const Premium = () => {
             <div className="premium-page">
                 <div className="premium-header">
                     <h1>PREMIUM PLANS</h1>
-                    <p>UNLOCK THE FULL POTENTIAL OF ARKIII</p>
+                    <p>UNLOCK THE FULL POTENTIAL OF A.X.L BLADE</p>
                 </div>
 
                 <div className="premium-tiers">

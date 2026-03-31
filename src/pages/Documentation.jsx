@@ -10,14 +10,14 @@ const Documentation = () => {
             <div className="container">
                 <div className="page-header">
                     <h1>DOCUMENTATION</h1>
-                    <p>COMPREHENSIVE GUIDE TO ARKIII BOT</p>
+                    <p>COMPREHENSIVE GUIDE TO A.X.L BLADE BOT</p>
                 </div>
 
                 <div className="doc-section">
                     <h2><i className="fas fa-rocket"></i> GETTING STARTED</h2>
-                    <p>WELCOME TO ARKIII! FOLLOW THESE STEPS TO GET YOUR BOT UP AND RUNNING:</p>
+                    <p>WELCOME TO A.X.L BLADE! FOLLOW THESE STEPS TO GET YOUR BOT UP AND RUNNING:</p>
                     <ul>
-                        <li>INVITE ARKIII TO YOUR SERVER USING THE INVITE LINK</li>
+                        <li>INVITE A.X.L BLADE TO YOUR SERVER USING THE INVITE LINK</li>
                         <li>GRANT THE NECESSARY PERMISSIONS FOR FULL FUNCTIONALITY</li>
                         <li>RUN <code>/setup</code> TO CONFIGURE INITIAL SETTINGS</li>
                         <li>CUSTOMIZE FEATURES USING THE DASHBOARD OR COMMANDS</li>
@@ -68,7 +68,7 @@ const Documentation = () => {
 
                 <div className="doc-section">
                     <h2><i className="fas fa-cog"></i> CONFIGURATION</h2>
-                    <p>CUSTOMIZE ARKIII TO FIT YOUR SERVER'S NEEDS:</p>
+                    <p>CUSTOMIZE A.X.L BLADE TO FIT YOUR SERVER'S NEEDS:</p>
                     <ul>
                         <li>SET UP CUSTOM PREFIXES AND COMMAND ALIASES</li>
                         <li>CONFIGURE AUTO-MODERATION RULES</li>

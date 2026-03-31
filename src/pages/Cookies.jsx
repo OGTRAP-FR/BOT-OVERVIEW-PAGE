@@ -63,7 +63,7 @@ const Cookies = () => {
                     <h2>4. CONTACT US</h2>
                     <p>FOR QUESTIONS ABOUT OUR COOKIE POLICY:</p>
                     <ul>
-                        <li>EMAIL: PRIVACY@ARKIII.BOT</li>
+                        <li>EMAIL: PRIVACY@AXLBLADE.BOT</li>
                         <li>DISCORD: <a href="https://discord.gg/support" style={{ color: '#00f3ff' }}>SUPPORT SERVER</a></li>
                         <li>SEE ALSO: <Link to="/privacy" style={{ color: '#00f3ff' }}>PRIVACY POLICY</Link></li>
                     </ul>
